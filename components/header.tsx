@@ -62,6 +62,12 @@ export function Header() {
       icon: MessageCircle,
       description: "Thông tin liên hệ",
     },
+    {
+      title: "Thành viên nhóm 7",
+      href: "/team",
+      icon: Info,
+      description: "Danh sách thành viên nhóm 7",
+    },
   ]
 
   return (
@@ -223,60 +229,60 @@ export function Header() {
         {/* Navigation menu - desktop */}
         <nav className="hidden md:flex mt-4">
           <div className="flex items-center space-x-1">
+            {/* ...existing code... */}
             <Link
               href="/"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Trang chủ
             </Link>
-
             <Link
               href="/products?category=all"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Tất cả sản phẩm
             </Link>
-
             <Link
               href="/products?category=machinery"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Máy móc công nghiệp
             </Link>
-
             <Link
               href="/products?category=tools"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Dụng cụ cơ khí
             </Link>
-
             <Link
               href="/products?category=parts"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Phụ tùng thay thế
             </Link>
-
             <Link
               href="/services"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Dịch vụ
             </Link>
-
             <Link
               href="/about"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Về chúng tôi
             </Link>
-
             <Link
               href="/contact"
               className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
             >
               Liên hệ
+            </Link>
+            <Link
+              href="/team"
+              className="inline-flex h-10 items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-orange-500 hover:text-white focus:bg-orange-500 focus:text-white focus:outline-none"
+            >
+              Thành viên nhóm 7
             </Link>
           </div>
         </nav>
