@@ -85,8 +85,8 @@ export default function HomePage() {
                   <CardTitle>Thiết bị hiện đại</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    Trang bị máy móc công nghệ tiên tiến, đảm bảo độ chính xác cao trong mọi sản phẩm
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Trang bị máy móc công nghệ tiên tiến, đảm bảo độ chính xác cao trong mọi sản phẩm</p>
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -99,8 +99,8 @@ export default function HomePage() {
                   <CardTitle>Đội ngũ chuyên nghiệp</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    Kỹ thuật viên giàu kinh nghiệm, được đào tạo bài bản và cập nhật công nghệ mới
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Kỹ thuật viên giàu kinh nghiệm, được đào tạo bài bản và cập nhật công nghệ mới</p>
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -113,8 +113,8 @@ export default function HomePage() {
                   <CardTitle>Bảo hành dài hạn</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    Cam kết bảo hành lên đến 24 tháng và hỗ trợ kỹ thuật suốt đời sản phẩm
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Cam kết bảo hành lên đến 24 tháng và hỗ trợ kỹ thuật suốt đời sản phẩm</p>
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -127,8 +127,8 @@ export default function HomePage() {
                   <CardTitle>Giao hàng nhanh</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    Cam kết giao hàng trong 24-48h tại khu vực Bắc Ninh và các tỉnh lân cận
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Cam kết giao hàng trong 24-48h tại khu vực Bắc Ninh và các tỉnh lân cận</p>
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -141,8 +141,8 @@ export default function HomePage() {
                   <CardTitle>Chứng nhận chất lượng</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    Đạt chứng nhận ISO 9001:2015 và các tiêu chuẩn chất lượng quốc tế
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Đạt chứng nhận ISO 9001:2015 và các tiêu chuẩn chất lượng quốc tế</p>
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -155,8 +155,8 @@ export default function HomePage() {
                   <CardTitle>Dịch vụ toàn diện</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed">
-                    Từ tư vấn, thiết kế, gia công đến lắp đặt và bảo trì máy móc công nghiệp
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Từ tư vấn, thiết kế, gia công đến lắp đặt và bảo trì máy móc công nghiệp</p>
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -188,7 +188,9 @@ export default function HomePage() {
                     <CardTitle className="text-lg">Máy tiện CNC</CardTitle>
                     <Badge variant="secondary">Bán chạy</Badge>
                   </div>
-                  <CardDescription>Máy tiện CNC chính xác cao, phù hợp cho gia công chi tiết phức tạp</CardDescription>
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Máy tiện CNC chính xác cao, phù hợp cho gia công chi tiết phức tạp</p>
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex justify-between items-center">
@@ -217,7 +219,7 @@ export default function HomePage() {
                     <Badge variant="outline">Mới</Badge>
                   </div>
                   <CardDescription>
-                    Máy phay đứng hiệu suất cao, thích hợp cho các xưởng cơ khí vừa và nhỏ
+                    <p style={{ fontFamily: 'monospace' }}>Máy phay đứng hiệu suất cao, thích hợp cho các xưởng cơ khí vừa và nhỏ</p>
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -246,7 +248,9 @@ export default function HomePage() {
                     <CardTitle className="text-lg">Máy khoan bàn</CardTitle>
                     <Badge variant="secondary">Ưu đãi</Badge>
                   </div>
-                  <CardDescription>Máy khoan bàn chính xác, động cơ mạnh mẽ, phù hợp mọi loại vật liệu</CardDescription>
+                  <CardDescription>
+                    <p style={{ fontFamily: 'monospace' }}>Máy khoan bàn chính xác, động cơ mạnh mẽ, phù hợp mọi loại vật liệu</p>
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex justify-between items-center">
